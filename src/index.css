@@ -1,0 +1,62 @@
+:root {
+  /* Escala turquesa */
+  --turquoise-50:  #e6f9f9;  /* fondo muy claro */
+  --turquoise-100: #c2f0f0;
+  --turquoise-200: #99e6e6;
+  --turquoise-300: #66d9d9;
+  --turquoise-400: #33cccc;
+  --turquoise-500: #20c997;  /* principal */
+  --turquoise-600: #17a589;
+  --turquoise-700: #138d8d;
+  --turquoise-800: #0f6e6e;
+  --turquoise-900: #0b4f4f;
+
+  /* Uso directo en Bootstrap */
+  --bs-body-bg: var(--turquoise-50);
+  --bs-body-color: #212529;
+  --bs-primary: var(--turquoise-500);
+  --bs-primary-rgb: 32, 201, 151;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  display: block;
+  background-color: var(--turquoise-50);
+  color: var(--bs-body-color);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji", sans-serif;
+}
+
+a {
+  color: var(--turquoise-700);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--turquoise-500);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--turquoise-700);
+}
+
+/* Navbar */
+.navbar-dark {
+  background-color: var(--turquoise-700) !important;
+}
+
+/* Botones */
+.btn-primary {
+  background-color: var(--turquoise-500);
+  border-color: var(--turquoise-500);
+}
+.btn-primary:hover {
+  background-color: var(--turquoise-600);
+  border-color: var(--turquoise-600);
+}
+
+/* Tarjetas */
+.card-title {
+  color: var(--turquoise-600);
+}
